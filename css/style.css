@@ -2726,6 +2726,9 @@ body {
     .top-header__phone, .top-header__login {
         text-align: center!important;
     }
+    li.line-login {
+        padding-top: 7px;
+    }
     .line {
         padding: 0px 10px;
     }
@@ -2797,7 +2800,7 @@ body {
     }
     .dropdown-content {
         min-width: 90px;
-        left: 60px;
+        left: 46px;
     }
     /* Banner */
 
@@ -2909,24 +2912,30 @@ body {
         padding-left: 15px!important;
     }
     .hand-picked__content {
-        display: flex;
+        display: inline-block;
+        width: 100%;
+    }
+    .hp-content-top {
+        width: 100%
+
     }
     .hp-sm-top {
-        height: 130px;
+        height: 140px;
+        margin: 0;
     }
     .border-sm-1 {
         border: solid 2px #fff;
         top: 10px;
         left: 24px;
-        bottom: 150px;
-        right: 27px;
+        bottom: 10px;
+        right: 174px;
     }
     .border-sm-1:hover {
         border: solid 2px #fff;
         top: 10px;
         left: 24px;
-        bottom: 150px;
-        right: 27px;
+        bottom: 10px;
+        right: 174px;
     }
     .caption-sm-1 .caption-sm-1-a {
         font-size: 9px;
@@ -2948,25 +2957,64 @@ body {
     .caption-sm-1 .hori-sm-1{
         display: none;
     }
-    .lg {
-        display: none!important;
+    .hp-lg {
+        height: auto;
+        width: 98%;
+        margin: 5px 0px;
+    }
+    .caption-lg .caption-a {
+        font-size: 9px;
+        padding: 8px 0px;
+        bottom: 20px;
+        right: 17px;
+        left: 18px;
+    }
+    .caption-lg .caption-a:hover {
+        font-size: 9px;
+        padding: 8px 0px;
+        bottom: 20px;
+        right: 17px;
+        left: 18px;
+    }
+    .caption-lg .hori {
+        height: 40px;
+        margin: 55px 0;
+    }
+    .caption-lg .verti {
+        width: 40px;
+        margin: 75px -19px;
+    }
+    .border-lg {
+        border: solid 2px #fff;
+        top: 16px;
+        left: 24px;
+        bottom: 16px;
+        right: 30px;
+    }
+    .border-lg:hover {
+        border: solid 2px #fff;
+        top: 16px;
+        left: 24px;
+        bottom: 16px;
+        right: 30px;
     }
     .hp-sm-bottom {
-        height: 130px;
+        height: 140px;
+        margin: 0;
     }
     .border-sm-2 {
         border: solid 2px #fff;
-        top: 150px;
-        left: 24px;
-        bottom: 8px;
-        right: 27px;
+        top: 10px;
+        left: 169px;
+        bottom: 10px;
+        right: 32px;
     }
     .border-sm-2:hover {
         border: solid 2px #fff;
-        top: 150px;
-        left: 24px;
-        bottom: 8px;
-        right: 27px;
+        top: 10px;
+        left: 169px;
+        bottom: 10px;
+        right: 32px;
     }
     .caption-sm-2 .caption-sm-2-a {
         font-size: 9px;
@@ -2990,6 +3038,9 @@ body {
     }
 
     /* collection */
+    .collection {
+        margin-top: 15px;
+    }
     .collection__content {
         width: 88%;
         display: inline-block;
