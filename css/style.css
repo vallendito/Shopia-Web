@@ -2727,7 +2727,10 @@ body {
         text-align: center!important;
     }
     .line {
-        padding: 0px 1px;
+        padding: 0px 10px;
+    }
+    span.line.line-fix {
+        display: none;
     }
     .m-right {
         margin-right: 0!important;
@@ -3032,8 +3035,13 @@ body {
     }
 
     /* Brand */
+    .brand {
+        margin-top: 60px;
+        margin-bottom: 200px;
+    }
+    }
     .brand__title {
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
     .brand__content-box {
         width: 80%;
@@ -3094,10 +3102,10 @@ body {
     .testi-1 {
         position: relative;
         bottom: -4px;
-        width: 100%;
+        width: 107%;
     }
     .testi-p-1 {
-        font-size: 13px;
+        font-size: 14px;
         margin: 0;
     }
     .testi-h-1 {
@@ -3109,7 +3117,7 @@ body {
         display: inline-flex;
     }
     .testi-p-2 {
-        font-size: 13px;
+        font-size: 14px;
         bottom: -20px;
         left: 20px;
         position: relative;
@@ -3122,7 +3130,7 @@ body {
         left: 20px;
     }
     .testi-2 {
-        bottom: -40px;
+        bottom: -55px;
     }
     /* footer */
     .content-box-footer-1 {
@@ -3132,7 +3140,7 @@ body {
         padding-top: 40px;
     }
     .text-box-footer ul li a {
-        font-size: 12px;
+        font-size: 14px;
     }
     .title-footer {
         font-size: 12.5px;
@@ -3157,7 +3165,3 @@ body {
         right: 15px;
     }
 }
-
-
-
-    
