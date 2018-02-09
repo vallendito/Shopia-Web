@@ -2720,14 +2720,14 @@ body {
 
 @media (min-width:320px) and (max-width:374px) {
     .top-header {
-        font-size: 8px;
+        font-size: 11px;
         padding: 10px 0 8px;
     }
     .top-header__phone, .top-header__login {
         text-align: center!important;
     }
     .line {
-        padding: 0px 13px;
+        padding: 0px 1px;
     }
     .m-right {
         margin-right: 0!important;
