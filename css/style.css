@@ -2799,25 +2799,28 @@ body {
     /* Banner */
 
     .btn-banner {
-        font-size: 9px;
-        padding: 8px 8px;
-        top: 0px;
+        font-size: 7px;
+        padding: 7px 6px;
+        top: 6px;
+        left: 3px;
     }
     .btn-banner:hover {
-        font-size: 10px;
-        padding: 8px 8px;
-        top: -7px;
+        font-size: 7px;
+        padding: 7px 6px;
+        top: 6px;
+        left: 3px;
     }
     .carousel-indicators{
         bottom: 0px!important;
     }
     .banner-indicator li{
-        width: 8px!important;
-        height: 8px!important;
+        width: 7px!important;
+        height: 7px!important;
+        
     }
     .banner-indicator .active{
-        width: 8px!important;
-        height: 8px!important;
+        width: 7px!important;
+        height: 7px!important;
     }
 
     /* support */
@@ -2833,23 +2836,23 @@ body {
         clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 10% 50%, 0 0);
     }
     .heading-primary__left--main, .heading-primary__center--main, .heading-primary__right--main {
-        font-size: 18px;
+        font-size: 17px;
     }
     .support__left--plane {
         position: absolute;
         top: 13px;
-        left: 35px;
+        left: 22px;
     }
     .heading-primary__left--main {
         position: absolute;
-        left: 204px;
+        left: 197px;
         top: -20px;
-        width: 49%;
-        letter-spacing: 2px;
+        width: 68%;
+        letter-spacing: 1px;
     }
     .heading-primary__left--sub {
         position: absolute;
-        left: 183px;
+        left: 146px;
         top: -3px;
     }
     .support .support__center {
@@ -2860,18 +2863,18 @@ body {
     .support__center--clock {
         position: relative;
         top: 20px;
-        left: -5px;
+        left: -15px;
     }
     .heading-primary__center--main {
         position: absolute;
-        left: 95px;
+        left: 90px;
         top: -39px;
-        letter-spacing: 1px;
     }
     .heading-primary__center--sub {
         position: absolute;
-        left: 178px;
+        left: 161px;
         top: -10px;
+        width: 52%;
     }
     .support .support__right {
         padding: 25px 10px;
@@ -2881,15 +2884,15 @@ body {
         clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 10% 50%, 0 0);
     }
     .support__right--ring {
-        left: 43px;
+        left: 34px;
         top: -11px;
     }
     .heading-primary__right--main {
         position: absolute;
         top: -19px;
-        left: 308px;
-        letter-spacing: 2px;
-        width: 49%;
+        left: 273px;
+        letter-spacing: 1px;
+        width: 54%;
     }
     .heading-primary__right--sub {
         left: 55%;
@@ -2912,14 +2915,14 @@ body {
         border: solid 2px #fff;
         top: 10px;
         left: 24px;
-        bottom: 175px;
+        bottom: 150px;
         right: 27px;
     }
     .border-sm-1:hover {
         border: solid 2px #fff;
         top: 10px;
         left: 24px;
-        bottom: 175px;
+        bottom: 150px;
         right: 27px;
     }
     .caption-sm-1 .caption-sm-1-a {
@@ -2950,14 +2953,14 @@ body {
     }
     .border-sm-2 {
         border: solid 2px #fff;
-        top: 172px;
+        top: 150px;
         left: 24px;
         bottom: 8px;
         right: 27px;
     }
     .border-sm-2:hover {
         border: solid 2px #fff;
-        top: 172px;
+        top: 150px;
         left: 24px;
         bottom: 8px;
         right: 27px;
@@ -2987,7 +2990,7 @@ body {
     .collection__content {
         width: 88%;
         display: inline-block;
-        height: 786px;
+        height: 645px;
         margin-right: 0px;
     }
     .collection__content-box.content-box--1 {
@@ -3006,36 +3009,41 @@ body {
         height: 93%;
     }
     .btn-collection {
-        font-size: 8px;
-        padding: 10px 25px;
-        left: 23px;
+        font-size: 7px;
+        padding: 7px 20px;
+        left: 18px;
     }
     .btn-collection:hover {
-        font-size: 8px;
-        padding: 10px 25px;
-        left: 23px;
+        font-size: 7px;
+        padding: 7px 20px;
+        left: 18px;
     }
     .diskon {
-        padding: 20px;
-        top: 10px;
-        left: 10px;
+        padding: 18px;
+        top: 8px;
+        left: 8px;
     }
     .diskon-text {
-        font-size: 15px;
+        font-size: 13px;
     }
     .persen {
-        font-size: 8px;
+        font-size: 7px;
         top: 12px;
     }
 
     /* Brand */
     .brand__title {
-        padding-bottom: 85px;
+        padding-bottom: 50px;
     }
     .brand__content-box {
         width: 80%;
         position: relative;
         right: 16px;
+    }
+    .brand__content {
+        position: relative;
+        margin: 20px;
+        right: 10px;
     }
     .brand-sm-1 {
         position: relative;
@@ -3085,28 +3093,29 @@ body {
     }
     .testi-1 {
         position: relative;
-        bottom: 17px;
+        bottom: -4px;
         width: 100%;
     }
     .testi-p-1 {
-        font-size: 15px;
+        font-size: 13px;
         margin: 0;
     }
     .testi-h-1 {
-        padding: 15px 0;
-        font-size: 22px;
+        padding: 7px 0;
+        font-size: 18px;
+        margin-top: 13px;
     }
     .testi_content-2 {
         display: inline-flex;
     }
     .testi-p-2 {
-        font-size: 16px;
+        font-size: 13px;
         bottom: -20px;
         left: 20px;
         position: relative;
     }
     .testi-h-2 {
-        font-size: 22px;
+        font-size: 18px;
         position: relative;
         padding-bottom: 75px;
         top: -15px;
