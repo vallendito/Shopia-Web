@@ -2718,6 +2718,112 @@ body {
     }
 }
 
+@media (min-width:501px) and (max-width:600px){
+
+    .heading-primary__left--main {
+        left: 267px;
+    }
+    .heading-primary__center--main {
+        left: 140px;
+    }
+    .heading-primary__center--sub {
+        left: 210px;
+    }
+    .heading-primary__right--main {
+        left: 419px;
+    }
+    .heading-primary__right--sub {
+        left: 200px;
+    }
+
+    /* hp */
+    .hp-sm-top {
+        height: 147px;
+    }
+    .border-sm-1 {
+        bottom: 165px;   
+        right: 25px;
+    }
+    .border-sm-1:hover {
+        bottom: 165px;
+        right: 25px;
+    }
+    .hp-sm-bottom {
+        height: 147px
+    }
+    .border-sm-2 {
+        top: 165px;
+        right: 25px;
+    }
+    .border-sm-2:hover {
+        top: 165px;
+        right: 25px;
+    }
+    .hp-lg {
+        height: 306px;
+        width: 157px;
+    }
+    
+    /* collection */
+    .diskon {
+        padding: 25px;
+    }
+    .diskon-text {
+        font-size: 20px;
+    }
+    .persen {
+        font-size: 14px;
+    }
+    .btn-collection {
+        font-size: 10px;
+        left: 40px;
+    }
+    .btn-collection:hover {
+        font-size: 10px;
+        left: 40px;
+    }
+    .collection__content {
+        height: 1050px;
+    }
+
+    /* brand */
+    .brand {
+        margin-bottom: 205px;
+    }
+    .brand__content-box {
+        right: -5px;
+    }
+
+    /* testi */
+    .testi-1 {
+        width: 85%!important;
+    }
+    .testi-2 {
+        width: 85%!important;
+        bottom: 0px!important;
+    }
+    .testi-p-1 {
+        font-size: 17px;
+    }
+    .testi-h-1 {
+        font-size: 20px;
+    }
+    .testi-p-2 {
+        font-size: 17px;
+    }
+    .testi-h-2 {
+        font-size: 20px;
+    }
+    /* footer */
+
+    .title-footer {
+        font-size: 14px!important;
+    }
+    .title-footer.title-fix {
+        padding-bottom: 55px!important;
+    }
+}
+
 @media (min-width:320px) and (max-width:374px) {
     .top-header {
         font-size: 11px;
@@ -3212,7 +3318,10 @@ body {
         width: 290px;
         padding: 15px 0;
     }
+    .fix-footer {
+        padding-right: 0!important;
+    }
     #return-to-top {
         right: 15px;
-    }
+    } 
 }
