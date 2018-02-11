@@ -2791,28 +2791,29 @@ body {
         margin-bottom: 205px;
     }
     .brand__content-box {
-        right: -5px;
+        right: -6px!important;
     }
 
     /* testi */
     .testi-1 {
         width: 85%!important;
+        bottom: 50px!important;
     }
     .testi-2 {
         width: 85%!important;
         bottom: 0px!important;
     }
     .testi-p-1 {
-        font-size: 17px;
+        font-size: 17px!important;
     }
     .testi-h-1 {
-        font-size: 20px;
+        font-size: 20px!important;
     }
     .testi-p-2 {
-        font-size: 17px;
+        font-size: 17px!important;
     }
     .testi-h-2 {
-        font-size: 20px;
+        font-size: 20px!important;
     }
     /* footer */
 
