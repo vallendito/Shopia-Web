@@ -2721,7 +2721,7 @@ body {
 @media (min-width:480px) and (max-width:565px){
 
     .heading-primary__left--main {
-        left: 280px;
+        left: 278px;
     }
     .heading-primary__center--main {
         left: 140px;
@@ -2730,7 +2730,7 @@ body {
         left: 210px;
     }
     .heading-primary__right--main {
-        left: 449px;
+        left: 445px;
     }
     .heading-primary__right--sub {
         left: 200px;
