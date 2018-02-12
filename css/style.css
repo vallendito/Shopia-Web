@@ -2730,7 +2730,7 @@ body {
         left: 210px;
     }
     .heading-primary__right--main {
-        left: 445px;
+        left: 443px;
     }
     .heading-primary__right--sub {
         left: 200px;
@@ -2822,6 +2822,9 @@ body {
     }
     .title-footer.title-fix {
         padding-bottom: 55px!important;
+    }
+    #return-to-top {
+        right: 30px!important;
     }
 }
 
