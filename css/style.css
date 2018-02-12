@@ -2718,7 +2718,7 @@ body {
     }
 }
 
-@media (min-width:548px) and (max-width:555px){
+@media (min-width:548px) and (max-width:565px){
 
     .heading-primary__left--main {
         left: 280px;
