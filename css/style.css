@@ -2731,6 +2731,7 @@ body {
     }
     .heading-primary__right--main {
         left: 440px;
+        width: 50%;
     }
     .heading-primary__right--sub {
         left: 200px;
