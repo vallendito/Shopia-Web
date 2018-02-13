@@ -2824,9 +2824,13 @@ body {
     .title-footer.title-fix {
         padding-bottom: 55px!important;
     }
+    .footer-p {
+        color: #fff;
+    }
     #return-to-top {
         right: 40px!important;
     }
+
 }
 
 @media (min-width:320px) and (max-width:374px) {
